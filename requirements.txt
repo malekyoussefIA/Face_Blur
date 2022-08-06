@@ -1,0 +1,8 @@
+setproctitle
+wheel
+boto3
+opencv-python
+numpy
+#python-xmp-toolkit==2.0.1
+retinaface-pytorch
+torchvision

@@ -1,0 +1,35 @@
+version: "2.3"
+
+services:
+  jupyterlab:
+    container_name: FaceBlur_containerJupyter
+    build: .
+    runtime: nvidia
+    environment:
+      - AWS_PROFILE=rd
+    command: bash -c "jupyter notebook --port=8888 --ip=0.0.0.0 --allow-root --no-browser"
+    ports:
+      - 6842:8888
+    working_dir: /home
+    volumes:
+      - .:/home
+      - ${HOME}/.aws/config:/root/.aws/config:ro
+      - ${HOME}/.aws/credentials:/root/.aws/credentials:ro
+      - ${HOME}/.jupyter/jupyter_notebook_config.json:/root/.jupyter/jupyter_notebook_config.json
+
+
+  faceDdetection:
+    container_name: FaceBlur_container
+    build: .
+    runtime: nvidia
+    command : tail -f /dev/null
+    environment:
+      - AWS_PROFILE=rd
+    working_dir: /home
+    volumes: 
+      - ${HOME}/.aws/config:/root/.aws/config:ro
+      - ${HOME}/.aws/credentials:/root/.aws/credentials:ro
+      - .:/home
+
+
+

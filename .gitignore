@@ -1,0 +1,200 @@
+# jpg
+*.[jJ][pP][gG]
+
+# png
+*.[pP][nN][gG]
+
+# zip
+*.[zZ][iI][pP]
+
+# mp4
+*.[mM][pP][4]
+
+# avi
+*.[aA][vV][iI]
+
+# jpeg
+*.[jJ][pP][eE][gG]
+
+# pgm
+*.[pP][gG][mM]
+
+# eps
+*.[eE][pP][sS]
+
+# json
+*.[jJ][sS][oO][nN]
+
+# ipynb
+*.[iI][pP][yY][nN][bB]
+
+# log
+*. [lL][oO][gG]
+# npy
+*.[nN][pP][yY]
+
+# pyc
+*.[pP][yY][cC]
+
+# pb
+*.[pP][bB]
+
+# pkl
+*.[pP][kK][lL]
+
+# mat
+*.[mM][aA][tT]
+
+# tif
+*.[tT][iI][fF]
+
+# tiff
+*.[tT][iI][fF][fF]
+
+# yml
+*.[yY][mM][lL]
+
+# csv
+*.[cC][sS][vV]
+
+# zip
+*.[zZ][iI][pP]
+
+# tar
+*.[tT][aA][rR]
+
+# tgz
+*.[tT][gG][zZ]
+
+# gz
+*.[gG][zZ]
+
+# 7z
+*.[7][zZ]
+
+# tar.gz
+*.[tT][aA][rR][.][gG][zZ]
+
+# meta
+*.[mM][eE][tT][aA]
+
+# ckpt
+*.[cC][kK][pP][tT]
+
+# keras weigths
+*.h5
+*.hdf5
+
+*.DS_Store
+.DS_Store
+octave-workspace
+
+# log files
+*.[lL][oO][gG]
+
+data/
+logs/
+jupyter_notebooks/
+utils/
+results/
+extraFiles/
+
+
+bin/
+build/
+lib/
+__pycache__/
+.vscode
+
+**/*.egg-info
+**/venv
+*~
+
+.idea/
+
+
+venv_faceDetection/pyvenv.cfg
+venv_faceDetection/share/doc/networkx-2.6.3/LICENSE.txt
+venv_faceDetection/share/doc/networkx-2.6.3/examples/README.txt
+venv_faceDetection/share/doc/networkx-2.6.3/examples/3d_drawing/mayavi2_spring.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/3d_drawing/plot_basic.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/3d_drawing/README.txt
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/hartford_drug.edgelist
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_beam_search.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_betweenness_centrality.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_blockmodel.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_circuits.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_davis_club.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_dedensification.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_iterated_dynamical_systems.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_krackhardt_centrality.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_parallel_betweenness.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_rcm.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/plot_snap.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/README.txt
+venv_faceDetection/share/doc/networkx-2.6.3/examples/algorithms/WormNet.v3.benchmark.txt
+venv_faceDetection/share/doc/networkx-2.6.3/examples/basic/plot_properties.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/basic/plot_read_write.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/basic/plot_simple_graph.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/basic/README.txt
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/chess_masters_WCC.pgn.bz2
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_chess_masters.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_custom_node_icons.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_degree.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_directed.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_edge_colormap.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_ego_graph.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_eigenvalues.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_four_grids.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_house_with_colors.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_knuth_miles.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_labels_and_colors.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_multipartite_graph.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_node_colormap.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_rainbow_coloring.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_random_geometric_graph.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_sampson.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_selfloops.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_simple_path.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_spectral_grid.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_unix_email.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/plot_weighted_graph.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/README.txt
+venv_faceDetection/share/doc/networkx-2.6.3/examples/drawing/unix_email.mbox
+venv_faceDetection/share/doc/networkx-2.6.3/examples/graph/plot_degree_sequence.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/graph/plot_erdos_renyi.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/graph/plot_expected_degree_sequence.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/graph/plot_football.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/graph/plot_karate_club.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/graph/plot_napoleon_russian_campaign.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/graph/plot_roget.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/graph/plot_words.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/graph/README.txt
+venv_faceDetection/share/doc/networkx-2.6.3/examples/subclass/plot_antigraph.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/subclass/plot_printgraph.py
+venv_faceDetection/share/doc/networkx-2.6.3/examples/subclass/README.txt
+venv_faceDetection/share/python-wheels/appdirs-1.4.3-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/CacheControl-0.11.7-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/certifi-2018.1.18-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/chardet-3.0.4-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/colorama-0.3.7-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/distlib-0.2.6-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/distro-1.0.1-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/html5lib-0.999999999-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/idna-2.6-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/ipaddress-0.0.0-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/lockfile-0.12.2-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/packaging-17.1-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/pip-9.0.1-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/pkg_resources-0.0.0-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/progress-1.2-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/pyparsing-2.2.0-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/requests-2.18.4-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/retrying-1.3.3-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/six-1.11.0-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/urllib3-1.22-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/webencodings-0.5-py2.py3-none-any.whl
+venv_faceDetection/share/python-wheels/wheel-0.30.0-py2.py3-none-any.whl
+face/weights/Resnet50_Final.pth
+venv_faceDetection/lib64
