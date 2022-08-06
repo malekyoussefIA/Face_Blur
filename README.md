@@ -1,4 +1,4 @@
-# Face detection project
+# Face detection 
 
 This project aims at detecting faces on a given image.
 The code mostly relies on 1 main librairie : [RetinaFace](https://github.com/ternaus/retinaface) 
