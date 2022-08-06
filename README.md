@@ -2,6 +2,7 @@
 
 This project aims at detecting faces on a given image.
 The code mostly relies on 1 main librairie : [RetinaFace](https://github.com/ternaus/retinaface) 
+![My Image](results/2DBBplot/crowd.jpg)
 
 ## Table of contents
 * [Getting started ](#getting-started)
