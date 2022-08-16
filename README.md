@@ -41,9 +41,11 @@ Make sure that your Pytorch version (>=1.6.0) with CUDA drivers >= 10.1:
 
 * With Docker:
 
-```docker-compose build
 ```
-Two services have been implemented, one with a Jupyter Notebook 
+docker-compose build
+
+```
+From there two services have been implemented, one with a Jupyter Notebook:
 
 ```
 docker-compose up --detach jupyterlab
