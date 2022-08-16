@@ -19,7 +19,7 @@ Please make sure you have your own jupyter config file if your want to run & tes
 ### Installation
 Clone the repo first : 
 ```
-git clone 
+git clone https://github.com/malekyoussefIA/Face_detection
 ```
 and 
 ```
