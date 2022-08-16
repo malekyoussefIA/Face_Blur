@@ -37,17 +37,20 @@ pip install -r requirements.txt
 
 ```
 Make sure that your Pytorch version (>=1.6.0) with CUDA drivers >= 10.1: 
-```
+
 
 * With Docker:
-```
-docker-compose build
+
+```docker-compose build
 ```
 Two services have been implemented, one with a Jupyter Notebook 
+
 ```
 docker-compose up --detach jupyterlab
 ```
+
 and another basic container: 
+
 ```
 docker-compose up --detach faceDdetection
 ```
@@ -66,5 +69,6 @@ There are at least two main arguments which required to be feed in order to prop
 ```
 python -m face.main -i data/imgs -g True 
 ```
+
 A  `.json` file is going to be produced and could be found in the  `./results/` folder as soon as the flag `--verbose` is set to _1_. Such dictionnary contains the main informations regarding the image(s) which was (were) processed : image size, prediction confidence score and raw faces coordinates for each detected faces. In addition to this `.json` file, a copy of the processed images with the 2D bouding boxes can also be generated in `./results/2DBBplot/`.
 
